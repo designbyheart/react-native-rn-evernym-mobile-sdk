@@ -1,13 +1,14 @@
+#import <Foundation/Foundation.h>
+#import <React/RCTConvert.h>
 
 #import "RNEvRnSdk.h"
 
 @implementation RNEvRnSdk
 
-- (dispatch_queue_t)methodQueue
-{
-    return dispatch_get_main_queue();
-}
 RCT_EXPORT_MODULE()
 
+- (void)testSKD {
+    NSLog(@"Test");
+}
+
 @end
-  

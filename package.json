@@ -1,8 +1,11 @@
 
 {
   "name": "react-native-ev-rn-sdk",
+  "homepage": "https://github.com/designbyheart/react-native-rn-evernym-mobile-sdk.git",
+  "source": "https://github.com/designbyheart/react-native-rn-evernym-mobile-sdk.git",
+  "summary": "Test module",
+  "description": "Description for test module in react native",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +14,7 @@
     "react-native"
   ],
   "author": "",
-  "license": "",
+  "license": "MIT",
   "peerDependencies": {
     "react-native": "^0.41.2"
   }

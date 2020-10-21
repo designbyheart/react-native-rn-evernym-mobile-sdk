@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.version        = package['version']
   s.summary        = package['summary']
   s.description    = package['description']
-  s.license        = package['license']
+  s.license        = { :type => "MIT", :file => "LICENSE" }
   s.author         = package['author']
   s.homepage       = package['homepage']
   s.source         = { :git => "https://github.com/designbyheart/react-native-rn-evernym-mobile-sdk.git", :tag => "#{s.version}" }
